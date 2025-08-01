@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "T-shirt coton bio",
+    "price": 24.99,
+    "image": "/images/tshirt.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sweat à capuche unisexe",
+    "price": 49.99,
+    "image": "/images/hoodie.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Casquette classique",
+    "price": 19.99,
+    "image": "/images/cap.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sac à dos urbain",
+    "price": 59.99,
+    "image": "/images/backpack.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Montre connectée sport",
+    "price": 129.99,
+    "image": "/images/watch.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Lunettes de soleil polarisées",
+    "price": 39.99,
+    "image": "/images/sunglasses.jpg"
+  }
+]
