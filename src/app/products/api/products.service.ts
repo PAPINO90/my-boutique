@@ -26,7 +26,7 @@ export class ProductsService {
         const data = fs.readFileSync(this.filePath, 'utf-8');
         this.products = JSON.parse(data);
       }
-    } catch (e) {
+    } catch {
       this.products = [];
     }
   }
@@ -34,7 +34,9 @@ export class ProductsService {
   private saveProducts() {
     try {
       fs.writeFileSync(this.filePath, JSON.stringify(this.products, null, 2), 'utf-8');
-    } catch (e) {}
+    } catch {
+      // Ignore write errors silently
+    }
   }
 
   findAll(): Product[] {
